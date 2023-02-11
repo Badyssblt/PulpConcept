@@ -13,7 +13,9 @@ body {
     background: #8A2387;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -116,6 +118,7 @@ nav li:hover {
 main {
     margin-top: 15px;
     margin-left: 15px;
+    flex-grow: 1;
 }
 
 .first-page {
@@ -279,10 +282,7 @@ main {
 
 
 .more-produits {
-    position: absolute;
-    left: 50%;
     width: 100%;
-    transform: translateX(-50%);
     margin-top: 50px;
     display: flex;
     flex-direction: row;
@@ -321,6 +321,7 @@ a:hover {
 .more-produits {
     width: 100%;
     height: 390px;
+    margin: 0 40px
 }
 
 .more-produits h1 {
@@ -334,6 +335,32 @@ a:hover {
 }
 
 
+footer {
+    width: 100%;
+    background-color: #4F2D7F;
+    height: 250px;
+    display: grid;
+    padding-left: 15%;
+    padding-top: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-family: 'Montserrat';
+    font-size: 0.7rem;
+    color: white;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.footer > .section {
+    margin: 6px 0;
+}
+
+.section {
+    
+}
 
 
 /* Product pages */
