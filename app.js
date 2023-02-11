@@ -88,7 +88,7 @@ function firstSneaker() {
     <img src="${sneak.img}" alt="">   
     <div class="details-hero">
         <h1 class="titlehero">${sneak.name}</h1>
-        <a href="product.html?name=${sneak.name}&description=${sneak.description}&img=${sneak.img}&price=${sneak.price} id="">COMMANDEZ</a>
+        <a href="product.html?name=${sneak.name}&description=${sneak.description}&img=${sneak.img}&price=${sneak.price}" id="">COMMANDEZ</a>
     </div>
     `;
     console.log(listPage);
