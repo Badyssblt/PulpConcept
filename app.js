@@ -88,7 +88,7 @@ function firstSneaker() {
     <img src="${sneak.img}" alt="">   
     <div class="details-hero">
         <h1 class="titlehero">${sneak.name}</h1>
-        <a href="product.html?name=${sneak.name}&description=${sneak.description}&img=${sneak.img}&price=${sneak.price}" id="">COMMANDEZ</a>
+        <a href="product.php?name=${sneak.name}&description=${sneak.description}&img=${sneak.img}&price=${sneak.price}" id="">COMMANDEZ</a>
     </div>
     `;
     console.log(listPage);
@@ -109,7 +109,7 @@ function createCard() {
         <img src= ${sneak.img} alt="">
         <h1 class="titre">${sneak.name}</h1>
         <p class="description">${sneak.description}</p>
-        <button id="buy"><a href = "product.html?name=${sneak.name}&description=${sneak.description}&img=${sneak.img}&price=${sneak.price}"id="lien">Acheter</a></button>
+        <button id="buy"><a href = "product.php?name=${sneak.name}&description=${sneak.description}&img=${sneak.img}&price=${sneak.price}"id="lien">Acheter</a></button>
         <button id="favoris">Ajouter aux favoris</button>
     </div>
     `;
